@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(77, 87, 97, 0.897);
+
+}
+li, a, button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #f1edee;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo {
+    cursor: pointer;
+}
+.steve {
+    display: block;
+    border-style: double;
+    padding: 5px 5px;
+    text-align: center;
+    
+}
+
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color: #0088a9;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius:50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+.alignleft {
+    height: 200px;
+    width: 200px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 60px;
+    border-right: solid 5px;
+    margin-right: 50px;
+    justify-content: flex-start;
+}
+section {
+    display: flexbox;
+    text-align: left;
+}
+p {
+    color: #f1edee;
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+}
+div img {
+    display: flexbox;
+    flex-wrap: wrap;
+    padding: 5px 5px;
+    margin: 25px;
+    border-style: groove;
+}
+
+.contact {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #f1edee
+    
+}
+
