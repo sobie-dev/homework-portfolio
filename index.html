@@ -7,23 +7,24 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
-<body>
+<body class="responsive">
     <header>
         <img class="logo" src="./assets/images/Stephen Obie.jpg" width="250" height="150"
         alt="logo">
         <nav>
             <ul class="nav-links">
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
-        <a class="cta" href="contact.html"><button>Contact</button></a>
+        <a href="#contact-me"><button>Contact</button></a>
     </header>
-    
-    <div><img class="steve" src="./assets/images/portfolio pic (2).jpg" 
-        width="200px" height="260px" alt="Steve pic"></div>
+    <div class="steve">
+        <img src="./assets/images/portfolio pic (2).jpg" 
+        width="200px" height="260px" alt="Steve pic">
+    </div>   
    
-    <section class="about">
+    <section id="about-me" class="about">
         <h1 class="alignleft">About Me</h1>
         <div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -35,44 +36,46 @@
         </div>
      </section>
 
-     <section>
-        <h1 class="alignleft">Projects</h1>
+     <section class="flex-container">
+        <h1 id="projects" class="alignleft">Projects</h1>
         <div>
             <a target="_blank" href="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_398/reconnect_with_nature.jpg?"> 
                 <img src="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_398/reconnect_with_nature.jpg?"alt="Tree Project"
-            width="250px" height="200px" alt="Tree Project">
+                width="500px" height="400px" alt="Tree Project">
             <div class="desc">Tree Project</div>
             </a>
         </div>
         <div>     
             <a target="_blank" href="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg">
                 <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg" 
-            width="250px" height="200px" alt="Fall Project">
-                    <div class="desc">Fall Project</div>
+                 width="250px" height="200px" alt="Fall Project">
+             <div class="desc">Fall Project</div>
             </a>   
         </div>
         <div>  
             <a target="_blank"href="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg">
                 <img src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg" 
                  width="250px" height="200px" alt="Deer Project">
-                    <div class="desc">Deer Project</div>
+             <div class="desc">Deer Project</div>
             </a>        
         </div>
-        <div>    
-            <img src="https://e2k9ube.cloudimg.io/s/cdn/x/https://edienet.s3.amazonaws.com/news/images/full_40419.jpg?v=15/06/2020%2016:52:00" 
-            width="250px" height="200px" alt="Sun in forest">
-                <div class="desc">Forest Project</div>
+        <div> 
+            <a target="_blank"href="https://e2k9ube.cloudimg.io/s/cdn/x/https://edienet.s3.amazonaws.com/news/images/full_40419.jpg?v=15/06/2020%2016:52:00">   
+                <img src="https://e2k9ube.cloudimg.io/s/cdn/x/https://edienet.s3.amazonaws.com/news/images/full_40419.jpg?v=15/06/2020%2016:52:00" 
+                width="250px" height="200px" alt="Sun in forest">
+            <div class="desc">Forest Project</div>
+            </a>
         </div>
         
      </section>
-     <section class="contact">
-         <h1 class="alignleft">Contact Me</h1>
+     <section>
+         <h1 id="contact-me" class="alignleft">Contact Me</h1>
          <nav class="nav-links">
-            <ul>
+            <ul class="contact">
                 <li><a href="#">207.577.5224</a></li>
-                <li><a href="#">Sobie31@outlook.com</a></li>
-                <li><a href="#">https://github.com/sobie-dev</a></li>
-                <li><a href="#">LinkedIn</a></li>
+                <li><a href="mailto:sobie31@outlook.com">Sobie31@outlook.com</a></li>
+                <li><a href="https://github.com/sobie-dev">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/stephen-obie-a56261107/">Linkedin</a></li>
             </ul>
          </nav>
 
