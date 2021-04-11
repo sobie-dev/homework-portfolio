@@ -12,4 +12,4 @@ The overall layout should be responsive and adapt to your viewport.
 
 ![Screenshot (24)](https://user-images.githubusercontent.com/79488120/114306822-18bc2280-9aab-11eb-840d-3384d172abf5.png)
 
-![Screenshot (25)](https://user-images.githubusercontent.com/79488120/114306824-1a85e600-9aab-11eb-9533-21c498ab0502.png)
+![Screenshot (26)](https://user-images.githubusercontent.com/79488120/114308310-63409d80-9ab1-11eb-8216-44f1f6d76ab0.png)
