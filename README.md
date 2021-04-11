@@ -10,6 +10,6 @@ As you click on any projects on the page you will be brought to a seprate page o
 
 The overall layout should be responsive and adapt to your viewport.
 
-![Screenshot (24)](https://user-images.githubusercontent.com/79488120/114306822-18bc2280-9aab-11eb-840d-3384d172abf5.png)
+![Screenshot (31)](https://user-images.githubusercontent.com/79488120/114309800-7d30af00-9ab6-11eb-8c25-ae147665c232.png)
 
-![Screenshot (26)](https://user-images.githubusercontent.com/79488120/114308310-63409d80-9ab1-11eb-8216-44f1f6d76ab0.png)
+![Screenshot (32)](https://user-images.githubusercontent.com/79488120/114309802-7efa7280-9ab6-11eb-90bb-1029fadde0cb.png)

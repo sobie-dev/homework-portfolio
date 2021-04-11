@@ -32,6 +32,7 @@ header {
     justify-content: center;
     border-style: double;
     padding: 5px 5px;
+    background-color: var(--blueBack);
 }
 
 .nav-links {
@@ -97,13 +98,23 @@ div img {
     margin: 25px;
     border-style: groove;
 }
-.contact {
+.foot-links {
+    list-style: none;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
     color: var(--white)
-    
+}
+.foot-links li {
+    display: inline-block;
+    padding: 20px 90px;
+}
+.foot-links li a {
+    transition: all 0.3s ease 0s;
+}
+.foot-links li a:hover {
+    color: var(--hovBlue);
 }
 @media only screen and (max-width: 700px) {
     .responsive {
